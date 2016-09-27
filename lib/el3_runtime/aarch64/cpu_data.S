@@ -26,6 +26,8 @@ func init_cpu_data_ptr
 	bl	plat_my_core_pos
 	bl	_cpu_data_by_index
 	msr	tpidr_el3, x0
+	mov	x0, #(3 << 12)
+	msr	mdcr_el3, x0
 	ret	x10
 endfunc init_cpu_data_ptr
 
