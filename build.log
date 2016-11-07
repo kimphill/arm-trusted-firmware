@@ -1,0 +1,551 @@
+  DEPS    build/fvp/release/bl2u/arm_helpers.d
+  DEPS    build/fvp/release/bl2u/board_arm_helpers.d
+  DEPS    build/fvp/release/bl2u/pl011_console.d
+  DEPS    build/fvp/release/bl2u/platform_helpers.d
+  DEPS    build/fvp/release/bl2u/misc_helpers.d
+  DEPS    build/fvp/release/bl2u/cache_helpers.d
+  DEPS    build/fvp/release/bl2u/debug.d
+  DEPS    build/fvp/release/bl2u/early_exceptions.d
+  DEPS    build/fvp/release/bl2u/bl2u_entrypoint.d
+  DEPS    build/fvp/release/bl2u/platform_up_stack.d
+  DEPS    build/fvp/release/bl2u/plat_common.d
+  DEPS    build/fvp/release/bl2u/arm_common.d
+  DEPS    build/fvp/release/bl2u/xlat_tables.d
+  DEPS    build/fvp/release/bl2u/xlat_tables_common.d
+  DEPS    build/fvp/release/bl2u/fvp_common.d
+  DEPS    build/fvp/release/bl2u/subr_prf.d
+  DEPS    build/fvp/release/bl2u/strncmp.d
+  DEPS    build/fvp/release/bl2u/strlen.d
+  DEPS    build/fvp/release/bl2u/strcmp.d
+  DEPS    build/fvp/release/bl2u/strchr.d
+  DEPS    build/fvp/release/bl2u/sscanf.d
+  DEPS    build/fvp/release/bl2u/puts.d
+  DEPS    build/fvp/release/bl2u/putchar.d
+  DEPS    build/fvp/release/bl2u/printf.d
+  DEPS    build/fvp/release/bl2u/mem.d
+  DEPS    build/fvp/release/bl2u/exit.d
+  DEPS    build/fvp/release/bl2u/assert.d
+  DEPS    build/fvp/release/bl2u/abort.d
+  DEPS    build/fvp/release/bl2u/tf_printf.d
+  DEPS    build/fvp/release/bl2u/bl_common.d
+  DEPS    build/fvp/release/bl2u/bl2u_main.d
+  DEPS    build/fvp/release/bl2u/arm_bl2u_setup.d
+  DEPS    build/fvp/release/bl2u/arm_tzc400.d
+  DEPS    build/fvp/release/bl2u/fvp_security.d
+  DEPS    build/fvp/release/bl2u/tzc400.d
+  DEPS    build/fvp/release/bl2u/fvp_bl2u_setup.d
+  DEPS    build/fvp/release/bl31/arm_helpers.d
+  DEPS    build/fvp/release/bl31/board_arm_helpers.d
+  DEPS    build/fvp/release/bl31/pl011_console.d
+  DEPS    build/fvp/release/bl31/platform_helpers.d
+  DEPS    build/fvp/release/bl31/misc_helpers.d
+  DEPS    build/fvp/release/bl31/cache_helpers.d
+  DEPS    build/fvp/release/bl31/debug.d
+  DEPS    build/fvp/release/bl31/context.d
+  DEPS    build/fvp/release/bl31/psci_helpers.d
+  DEPS    build/fvp/release/bl31/spinlock.d
+  DEPS    build/fvp/release/bl31/cpu_helpers.d
+  DEPS    build/fvp/release/bl31/cpu_data.d
+  DEPS    build/fvp/release/bl31/crash_reporting.d
+  DEPS    build/fvp/release/bl31/runtime_exceptions.d
+  DEPS    build/fvp/release/bl31/bl31_entrypoint.d
+  DEPS    build/fvp/release/bl31/platform_mp_stack.d
+  DEPS    build/fvp/release/bl31/cortex_a73.d
+  DEPS    build/fvp/release/bl31/cortex_a72.d
+  DEPS    build/fvp/release/bl31/cortex_a57.d
+  DEPS    build/fvp/release/bl31/cortex_a53.d
+  DEPS    build/fvp/release/bl31/cortex_a35.d
+  DEPS    build/fvp/release/bl31/aem_generic.d
+  DEPS    build/fvp/release/bl31/fvp_helpers.d
+  DEPS    build/fvp/release/bl31/plat_common.d
+  DEPS    build/fvp/release/bl31/arm_common.d
+  DEPS    build/fvp/release/bl31/xlat_tables.d
+  DEPS    build/fvp/release/bl31/xlat_tables_common.d
+  DEPS    build/fvp/release/bl31/fvp_common.d
+  DEPS    build/fvp/release/bl31/subr_prf.d
+  DEPS    build/fvp/release/bl31/strncmp.d
+  DEPS    build/fvp/release/bl31/strlen.d
+  DEPS    build/fvp/release/bl31/strcmp.d
+  DEPS    build/fvp/release/bl31/strchr.d
+  DEPS    build/fvp/release/bl31/sscanf.d
+  DEPS    build/fvp/release/bl31/puts.d
+  DEPS    build/fvp/release/bl31/putchar.d
+  DEPS    build/fvp/release/bl31/printf.d
+  DEPS    build/fvp/release/bl31/mem.d
+  DEPS    build/fvp/release/bl31/exit.d
+  DEPS    build/fvp/release/bl31/assert.d
+  DEPS    build/fvp/release/bl31/abort.d
+  DEPS    build/fvp/release/bl31/tf_printf.d
+  DEPS    build/fvp/release/bl31/bl_common.d
+  DEPS    build/fvp/release/bl31/pmf_main.d
+  DEPS    build/fvp/release/bl31/psci_stat.d
+  DEPS    build/fvp/release/bl31/bakery_lock_coherent.d
+  DEPS    build/fvp/release/bl31/psci_system_off.d
+  DEPS    build/fvp/release/bl31/psci_setup.d
+  DEPS    build/fvp/release/bl31/psci_main.d
+  DEPS    build/fvp/release/bl31/psci_common.d
+  DEPS    build/fvp/release/bl31/psci_suspend.d
+  DEPS    build/fvp/release/bl31/psci_on.d
+  DEPS    build/fvp/release/bl31/psci_off.d
+  DEPS    build/fvp/release/bl31/context_mgmt.d
+  DEPS    build/fvp/release/bl31/cpu_data_array.d
+  DEPS    build/fvp/release/bl31/std_svc_setup.d
+  DEPS    build/fvp/release/bl31/runtime_svc.d
+  DEPS    build/fvp/release/bl31/bl31_context_mgmt.d
+  DEPS    build/fvp/release/bl31/interrupt_mgmt.d
+  DEPS    build/fvp/release/bl31/bl31_main.d
+  DEPS    build/fvp/release/bl31/plat_psci_common.d
+  DEPS    build/fvp/release/bl31/arm_topology.d
+  DEPS    build/fvp/release/bl31/arm_pm.d
+  DEPS    build/fvp/release/bl31/arm_bl31_setup.d
+  DEPS    build/fvp/release/bl31/arm_tzc400.d
+  DEPS    build/fvp/release/bl31/fvp_security.d
+  DEPS    build/fvp/release/bl31/tzc400.d
+  DEPS    build/fvp/release/bl31/arm_cci.d
+  DEPS    build/fvp/release/bl31/cci.d
+  DEPS    build/fvp/release/bl31/arm_gicv3.d
+  DEPS    build/fvp/release/bl31/plat_gicv3.d
+  DEPS    build/fvp/release/bl31/gicv3_helpers.d
+  DEPS    build/fvp/release/bl31/gicv3_main.d
+  DEPS    build/fvp/release/bl31/gic_common.d
+  DEPS    build/fvp/release/bl31/fvp_pwrc.d
+  DEPS    build/fvp/release/bl31/fvp_topology.d
+  DEPS    build/fvp/release/bl31/fvp_pm.d
+  DEPS    build/fvp/release/bl31/fvp_bl31_setup.d
+  DEPS    build/fvp/release/bl2/arm_helpers.d
+  DEPS    build/fvp/release/bl2/board_arm_helpers.d
+  DEPS    build/fvp/release/bl2/pl011_console.d
+  DEPS    build/fvp/release/bl2/platform_helpers.d
+  DEPS    build/fvp/release/bl2/misc_helpers.d
+  DEPS    build/fvp/release/bl2/cache_helpers.d
+  DEPS    build/fvp/release/bl2/debug.d
+  DEPS    build/fvp/release/bl2/spinlock.d
+  DEPS    build/fvp/release/bl2/early_exceptions.d
+  DEPS    build/fvp/release/bl2/bl2_entrypoint.d
+  DEPS    build/fvp/release/bl2/platform_up_stack.d
+  DEPS    build/fvp/release/bl2/semihosting_call.d
+  DEPS    build/fvp/release/bl2/plat_common.d
+  DEPS    build/fvp/release/bl2/arm_common.d
+  DEPS    build/fvp/release/bl2/xlat_tables.d
+  DEPS    build/fvp/release/bl2/xlat_tables_common.d
+  DEPS    build/fvp/release/bl2/fvp_common.d
+  DEPS    build/fvp/release/bl2/subr_prf.d
+  DEPS    build/fvp/release/bl2/strncmp.d
+  DEPS    build/fvp/release/bl2/strlen.d
+  DEPS    build/fvp/release/bl2/strcmp.d
+  DEPS    build/fvp/release/bl2/strchr.d
+  DEPS    build/fvp/release/bl2/sscanf.d
+  DEPS    build/fvp/release/bl2/puts.d
+  DEPS    build/fvp/release/bl2/putchar.d
+  DEPS    build/fvp/release/bl2/printf.d
+  DEPS    build/fvp/release/bl2/mem.d
+  DEPS    build/fvp/release/bl2/exit.d
+  DEPS    build/fvp/release/bl2/assert.d
+  DEPS    build/fvp/release/bl2/abort.d
+  DEPS    build/fvp/release/bl2/tf_printf.d
+  DEPS    build/fvp/release/bl2/bl_common.d
+  DEPS    build/fvp/release/bl2/bl2_arch_setup.d
+  DEPS    build/fvp/release/bl2/bl2_main.d
+  DEPS    build/fvp/release/bl2/arm_io_storage.d
+  DEPS    build/fvp/release/bl2/arm_bl2_setup.d
+  DEPS    build/fvp/release/bl2/io_storage.d
+  DEPS    build/fvp/release/bl2/io_memmap.d
+  DEPS    build/fvp/release/bl2/io_fip.d
+  DEPS    build/fvp/release/bl2/norflash.d
+  DEPS    build/fvp/release/bl2/generic_delay_timer.d
+  DEPS    build/fvp/release/bl2/arm_tzc400.d
+  DEPS    build/fvp/release/bl2/fvp_security.d
+  DEPS    build/fvp/release/bl2/tzc400.d
+  DEPS    build/fvp/release/bl2/fvp_trusted_boot.d
+  DEPS    build/fvp/release/bl2/fvp_io_storage.d
+  DEPS    build/fvp/release/bl2/fvp_err.d
+  DEPS    build/fvp/release/bl2/fvp_bl2_setup.d
+  DEPS    build/fvp/release/bl2/semihosting.d
+  DEPS    build/fvp/release/bl2/delay_timer.d
+  DEPS    build/fvp/release/bl2/io_semihosting.d
+  DEPS    build/fvp/release/bl1/arm_helpers.d
+  DEPS    build/fvp/release/bl1/board_arm_helpers.d
+  DEPS    build/fvp/release/bl1/pl011_console.d
+  DEPS    build/fvp/release/bl1/platform_helpers.d
+  DEPS    build/fvp/release/bl1/misc_helpers.d
+  DEPS    build/fvp/release/bl1/cache_helpers.d
+  DEPS    build/fvp/release/bl1/debug.d
+  DEPS    build/fvp/release/bl1/context.d
+  DEPS    build/fvp/release/bl1/cpu_helpers.d
+  DEPS    build/fvp/release/bl1/bl1_exceptions.d
+  DEPS    build/fvp/release/bl1/bl1_entrypoint.d
+  DEPS    build/fvp/release/bl1/platform_up_stack.d
+  DEPS    build/fvp/release/bl1/cortex_a73.d
+  DEPS    build/fvp/release/bl1/cortex_a72.d
+  DEPS    build/fvp/release/bl1/cortex_a57.d
+  DEPS    build/fvp/release/bl1/cortex_a53.d
+  DEPS    build/fvp/release/bl1/cortex_a35.d
+  DEPS    build/fvp/release/bl1/aem_generic.d
+  DEPS    build/fvp/release/bl1/fvp_helpers.d
+  DEPS    build/fvp/release/bl1/semihosting_call.d
+  DEPS    build/fvp/release/bl1/plat_common.d
+  DEPS    build/fvp/release/bl1/arm_common.d
+  DEPS    build/fvp/release/bl1/xlat_tables.d
+  DEPS    build/fvp/release/bl1/xlat_tables_common.d
+  DEPS    build/fvp/release/bl1/fvp_common.d
+  DEPS    build/fvp/release/bl1/subr_prf.d
+  DEPS    build/fvp/release/bl1/strncmp.d
+  DEPS    build/fvp/release/bl1/strlen.d
+  DEPS    build/fvp/release/bl1/strcmp.d
+  DEPS    build/fvp/release/bl1/strchr.d
+  DEPS    build/fvp/release/bl1/sscanf.d
+  DEPS    build/fvp/release/bl1/puts.d
+  DEPS    build/fvp/release/bl1/putchar.d
+  DEPS    build/fvp/release/bl1/printf.d
+  DEPS    build/fvp/release/bl1/mem.d
+  DEPS    build/fvp/release/bl1/exit.d
+  DEPS    build/fvp/release/bl1/assert.d
+  DEPS    build/fvp/release/bl1/abort.d
+  DEPS    build/fvp/release/bl1/tf_printf.d
+  DEPS    build/fvp/release/bl1/bl_common.d
+  DEPS    build/fvp/release/bl1/plat_bl1_common.d
+  DEPS    build/fvp/release/bl1/context_mgmt.d
+  DEPS    build/fvp/release/bl1/bl1_context_mgmt.d
+  DEPS    build/fvp/release/bl1/bl1_arch_setup.d
+  DEPS    build/fvp/release/bl1/bl1_main.d
+  DEPS    build/fvp/release/bl1/arm_io_storage.d
+  DEPS    build/fvp/release/bl1/arm_bl1_setup.d
+  DEPS    build/fvp/release/bl1/io_storage.d
+  DEPS    build/fvp/release/bl1/io_memmap.d
+  DEPS    build/fvp/release/bl1/io_fip.d
+  DEPS    build/fvp/release/bl1/sp805.d
+  DEPS    build/fvp/release/bl1/norflash.d
+  DEPS    build/fvp/release/bl1/arm_cci.d
+  DEPS    build/fvp/release/bl1/cci.d
+  DEPS    build/fvp/release/bl1/fvp_trusted_boot.d
+  DEPS    build/fvp/release/bl1/fvp_io_storage.d
+  DEPS    build/fvp/release/bl1/fvp_err.d
+  DEPS    build/fvp/release/bl1/fvp_bl1_setup.d
+  DEPS    build/fvp/release/bl1/semihosting.d
+  DEPS    build/fvp/release/bl1/io_semihosting.d
+  DEPS    build/fvp/release/bl2u/bl2u.ld.d
+  DEPS    build/fvp/release/bl31/bl31.ld.d
+  DEPS    build/fvp/release/bl2/bl2.ld.d
+  DEPS    build/fvp/release/bl1/bl1.ld.d
+Building fvp
+  CC      drivers/io/io_semihosting.c
+  CC      lib/semihosting/semihosting.c
+  CC      plat/arm/board/fvp/fvp_bl1_setup.c
+  CC      plat/arm/board/fvp/fvp_err.c
+  CC      plat/arm/board/fvp/fvp_io_storage.c
+  CC      plat/arm/board/fvp/fvp_trusted_boot.c
+  CC      drivers/arm/cci/cci.c
+  CC      plat/arm/common/arm_cci.c
+  CC      plat/arm/board/common/drivers/norflash/norflash.c
+  CC      drivers/arm/sp805/sp805.c
+  CC      drivers/io/io_fip.c
+  CC      drivers/io/io_memmap.c
+  CC      drivers/io/io_storage.c
+  CC      plat/arm/common/arm_bl1_setup.c
+  CC      plat/arm/common/arm_io_storage.c
+  CC      bl1/bl1_main.c
+  CC      bl1/aarch64/bl1_arch_setup.c
+  CC      bl1/bl1_context_mgmt.c
+  CC      lib/el3_runtime/aarch64/context_mgmt.c
+  CC      plat/common/plat_bl1_common.c
+  CC      common/bl_common.c
+  CC      common/tf_printf.c
+  CC      lib/stdlib/abort.c
+  CC      lib/stdlib/assert.c
+  CC      lib/stdlib/exit.c
+  CC      lib/stdlib/mem.c
+  CC      lib/stdlib/printf.c
+  CC      lib/stdlib/putchar.c
+  CC      lib/stdlib/puts.c
+  CC      lib/stdlib/sscanf.c
+  CC      lib/stdlib/strchr.c
+  CC      lib/stdlib/strcmp.c
+  CC      lib/stdlib/strlen.c
+  CC      lib/stdlib/strncmp.c
+  CC      lib/stdlib/subr_prf.c
+  CC      plat/arm/board/fvp/fvp_common.c
+  CC      lib/xlat_tables/xlat_tables_common.c
+  CC      lib/xlat_tables/aarch64/xlat_tables.c
+  CC      plat/arm/common/arm_common.c
+  CC      plat/common/aarch64/plat_common.c
+plat/common/aarch64/plat_common.c: In function 'plat_get_syscnt_freq2':
+plat/common/aarch64/plat_common.c:84:2: warning: 'plat_get_syscnt_freq' is deprecated [-Wdeprecated-declarations]
+  unsigned long long freq = plat_get_syscnt_freq();
+  ^
+In file included from plat/common/aarch64/plat_common.c:32:0:
+include/plat/common/platform.h:62:20: note: declared here
+ unsigned long long plat_get_syscnt_freq(void) __deprecated;
+                    ^
+  AS      lib/semihosting/aarch64/semihosting_call.S
+  AS      plat/arm/board/fvp/aarch64/fvp_helpers.S
+  AS      lib/cpus/aarch64/aem_generic.S
+  AS      lib/cpus/aarch64/cortex_a35.S
+  AS      lib/cpus/aarch64/cortex_a53.S
+  AS      lib/cpus/aarch64/cortex_a57.S
+  AS      lib/cpus/aarch64/cortex_a72.S
+  AS      lib/cpus/aarch64/cortex_a73.S
+  AS      plat/common/aarch64/platform_up_stack.S
+  AS      bl1/aarch64/bl1_entrypoint.S
+  AS      bl1/aarch64/bl1_exceptions.S
+  AS      lib/cpus/aarch64/cpu_helpers.S
+  AS      lib/el3_runtime/aarch64/context.S
+  AS      common/aarch64/debug.S
+  AS      lib/aarch64/cache_helpers.S
+  AS      lib/aarch64/misc_helpers.S
+  AS      plat/common/aarch64/platform_helpers.S
+  AS      drivers/arm/pl011/aarch64/pl011_console.S
+  AS      plat/arm/board/common/aarch64/board_arm_helpers.S
+  AS      plat/arm/common/aarch64/arm_helpers.S
+  PP      bl1/bl1.ld.S
+  LD      build/fvp/release/bl1/bl1.elf
+  BIN     build/fvp/release/bl1.bin
+
+Built build/fvp/release/bl1.bin successfully
+
+  OD      build/fvp/release/bl1/bl1.dump
+  CC      drivers/io/io_semihosting.c
+  CC      drivers/delay_timer/delay_timer.c
+  CC      lib/semihosting/semihosting.c
+  CC      plat/arm/board/fvp/fvp_bl2_setup.c
+  CC      plat/arm/board/fvp/fvp_err.c
+  CC      plat/arm/board/fvp/fvp_io_storage.c
+  CC      plat/arm/board/fvp/fvp_trusted_boot.c
+  CC      drivers/arm/tzc/tzc400.c
+  CC      plat/arm/board/fvp/fvp_security.c
+  CC      plat/arm/common/arm_tzc400.c
+  CC      drivers/delay_timer/generic_delay_timer.c
+  CC      plat/arm/board/common/drivers/norflash/norflash.c
+  CC      drivers/io/io_fip.c
+  CC      drivers/io/io_memmap.c
+  CC      drivers/io/io_storage.c
+  CC      plat/arm/common/arm_bl2_setup.c
+  CC      plat/arm/common/arm_io_storage.c
+  CC      bl2/bl2_main.c
+  CC      bl2/aarch64/bl2_arch_setup.c
+  CC      common/bl_common.c
+  CC      common/tf_printf.c
+  CC      lib/stdlib/abort.c
+  CC      lib/stdlib/assert.c
+  CC      lib/stdlib/exit.c
+  CC      lib/stdlib/mem.c
+  CC      lib/stdlib/printf.c
+  CC      lib/stdlib/putchar.c
+  CC      lib/stdlib/puts.c
+  CC      lib/stdlib/sscanf.c
+  CC      lib/stdlib/strchr.c
+  CC      lib/stdlib/strcmp.c
+  CC      lib/stdlib/strlen.c
+  CC      lib/stdlib/strncmp.c
+  CC      lib/stdlib/subr_prf.c
+  CC      plat/arm/board/fvp/fvp_common.c
+  CC      lib/xlat_tables/xlat_tables_common.c
+  CC      lib/xlat_tables/aarch64/xlat_tables.c
+  CC      plat/arm/common/arm_common.c
+  CC      plat/common/aarch64/plat_common.c
+plat/common/aarch64/plat_common.c: In function 'plat_get_syscnt_freq2':
+plat/common/aarch64/plat_common.c:84:2: warning: 'plat_get_syscnt_freq' is deprecated [-Wdeprecated-declarations]
+  unsigned long long freq = plat_get_syscnt_freq();
+  ^
+In file included from plat/common/aarch64/plat_common.c:32:0:
+include/plat/common/platform.h:62:20: note: declared here
+ unsigned long long plat_get_syscnt_freq(void) __deprecated;
+                    ^
+  AS      lib/semihosting/aarch64/semihosting_call.S
+  AS      plat/common/aarch64/platform_up_stack.S
+  AS      bl2/aarch64/bl2_entrypoint.S
+  AS      common/aarch64/early_exceptions.S
+  AS      lib/locks/exclusive/aarch64/spinlock.S
+  AS      common/aarch64/debug.S
+  AS      lib/aarch64/cache_helpers.S
+  AS      lib/aarch64/misc_helpers.S
+  AS      plat/common/aarch64/platform_helpers.S
+  AS      drivers/arm/pl011/aarch64/pl011_console.S
+  AS      plat/arm/board/common/aarch64/board_arm_helpers.S
+  AS      plat/arm/common/aarch64/arm_helpers.S
+  PP      bl2/bl2.ld.S
+  LD      build/fvp/release/bl2/bl2.elf
+  BIN     build/fvp/release/bl2.bin
+
+Built build/fvp/release/bl2.bin successfully
+
+  OD      build/fvp/release/bl2/bl2.dump
+  CC      plat/arm/board/fvp/fvp_bl31_setup.c
+  CC      plat/arm/board/fvp/fvp_pm.c
+  CC      plat/arm/board/fvp/fvp_topology.c
+  CC      plat/arm/board/fvp/drivers/pwrc/fvp_pwrc.c
+  CC      drivers/arm/gic/common/gic_common.c
+  CC      drivers/arm/gic/v3/gicv3_main.c
+  CC      drivers/arm/gic/v3/gicv3_helpers.c
+  CC      plat/common/plat_gicv3.c
+  CC      plat/arm/common/arm_gicv3.c
+  CC      drivers/arm/cci/cci.c
+  CC      plat/arm/common/arm_cci.c
+  CC      drivers/arm/tzc/tzc400.c
+  CC      plat/arm/board/fvp/fvp_security.c
+  CC      plat/arm/common/arm_tzc400.c
+  CC      plat/arm/common/arm_bl31_setup.c
+  CC      plat/arm/common/arm_pm.c
+  CC      plat/arm/common/arm_topology.c
+  CC      plat/common/plat_psci_common.c
+  CC      bl31/bl31_main.c
+  CC      bl31/interrupt_mgmt.c
+  CC      bl31/bl31_context_mgmt.c
+bl31/bl31_context_mgmt.c: In function 'cm_get_context_by_mpidr':
+bl31/bl31_context_mgmt.c:106:2: warning: 'platform_get_core_pos' is deprecated [-Wdeprecated-declarations]
+  return cm_get_context_by_index(platform_get_core_pos(mpidr), security_state);
+  ^
+In file included from bl31/bl31_context_mgmt.c:37:0:
+include/plat/common/platform.h:284:14: note: declared here
+ unsigned int platform_get_core_pos(unsigned long mpidr) __deprecated;
+              ^
+bl31/bl31_context_mgmt.c: In function 'cm_set_context_by_mpidr':
+bl31/bl31_context_mgmt.c:117:2: warning: 'platform_get_core_pos' is deprecated [-Wdeprecated-declarations]
+  cm_set_context_by_index(platform_get_core_pos(mpidr),
+  ^
+In file included from bl31/bl31_context_mgmt.c:37:0:
+include/plat/common/platform.h:284:14: note: declared here
+ unsigned int platform_get_core_pos(unsigned long mpidr) __deprecated;
+              ^
+bl31/bl31_context_mgmt.c: In function 'cm_init_context':
+bl31/bl31_context_mgmt.c:132:3: warning: 'platform_get_core_pos' is deprecated [-Wdeprecated-declarations]
+   cm_init_context_by_index(platform_get_core_pos(mpidr), ep);
+   ^
+In file included from bl31/bl31_context_mgmt.c:37:0:
+include/plat/common/platform.h:284:14: note: declared here
+ unsigned int platform_get_core_pos(unsigned long mpidr) __deprecated;
+              ^
+  CC      common/runtime_svc.c
+  CC      services/std_svc/std_svc_setup.c
+  CC      lib/el3_runtime/cpu_data_array.c
+  CC      lib/el3_runtime/aarch64/context_mgmt.c
+  CC      lib/psci/psci_off.c
+  CC      lib/psci/psci_on.c
+  CC      lib/psci/psci_suspend.c
+  CC      lib/psci/psci_common.c
+  CC      lib/psci/psci_main.c
+  CC      lib/psci/psci_setup.c
+  CC      lib/psci/psci_system_off.c
+  CC      lib/locks/bakery/bakery_lock_coherent.c
+  CC      lib/psci/psci_stat.c
+  CC      lib/pmf/pmf_main.c
+  CC      common/bl_common.c
+  CC      common/tf_printf.c
+  CC      lib/stdlib/abort.c
+  CC      lib/stdlib/assert.c
+  CC      lib/stdlib/exit.c
+  CC      lib/stdlib/mem.c
+  CC      lib/stdlib/printf.c
+  CC      lib/stdlib/putchar.c
+  CC      lib/stdlib/puts.c
+  CC      lib/stdlib/sscanf.c
+  CC      lib/stdlib/strchr.c
+  CC      lib/stdlib/strcmp.c
+  CC      lib/stdlib/strlen.c
+  CC      lib/stdlib/strncmp.c
+  CC      lib/stdlib/subr_prf.c
+  CC      plat/arm/board/fvp/fvp_common.c
+  CC      lib/xlat_tables/xlat_tables_common.c
+  CC      lib/xlat_tables/aarch64/xlat_tables.c
+  CC      plat/arm/common/arm_common.c
+  CC      plat/common/aarch64/plat_common.c
+plat/common/aarch64/plat_common.c: In function 'plat_get_syscnt_freq2':
+plat/common/aarch64/plat_common.c:84:2: warning: 'plat_get_syscnt_freq' is deprecated [-Wdeprecated-declarations]
+  unsigned long long freq = plat_get_syscnt_freq();
+  ^
+In file included from plat/common/aarch64/plat_common.c:32:0:
+include/plat/common/platform.h:62:20: note: declared here
+ unsigned long long plat_get_syscnt_freq(void) __deprecated;
+                    ^
+  AS      plat/arm/board/fvp/aarch64/fvp_helpers.S
+  AS      lib/cpus/aarch64/aem_generic.S
+  AS      lib/cpus/aarch64/cortex_a35.S
+  AS      lib/cpus/aarch64/cortex_a53.S
+  AS      lib/cpus/aarch64/cortex_a57.S
+  AS      lib/cpus/aarch64/cortex_a72.S
+  AS      lib/cpus/aarch64/cortex_a73.S
+  AS      plat/common/aarch64/platform_mp_stack.S
+  AS      bl31/aarch64/bl31_entrypoint.S
+  AS      bl31/aarch64/runtime_exceptions.S
+  AS      bl31/aarch64/crash_reporting.S
+  AS      lib/el3_runtime/aarch64/cpu_data.S
+  AS      lib/cpus/aarch64/cpu_helpers.S
+  AS      lib/locks/exclusive/aarch64/spinlock.S
+  AS      lib/psci/aarch64/psci_helpers.S
+  AS      lib/el3_runtime/aarch64/context.S
+  AS      common/aarch64/debug.S
+  AS      lib/aarch64/cache_helpers.S
+  AS      lib/aarch64/misc_helpers.S
+  AS      plat/common/aarch64/platform_helpers.S
+  AS      drivers/arm/pl011/aarch64/pl011_console.S
+  AS      plat/arm/board/common/aarch64/board_arm_helpers.S
+  AS      plat/arm/common/aarch64/arm_helpers.S
+  PP      bl31/bl31.ld.S
+  LD      build/fvp/release/bl31/bl31.elf
+  BIN     build/fvp/release/bl31.bin
+
+Built build/fvp/release/bl31.bin successfully
+
+  OD      build/fvp/release/bl31/bl31.dump
+  CC      plat/arm/board/fvp/fvp_bl2u_setup.c
+  CC      drivers/arm/tzc/tzc400.c
+  CC      plat/arm/board/fvp/fvp_security.c
+  CC      plat/arm/common/arm_tzc400.c
+  CC      plat/arm/common/arm_bl2u_setup.c
+  CC      bl2u/bl2u_main.c
+  CC      common/bl_common.c
+  CC      common/tf_printf.c
+  CC      lib/stdlib/abort.c
+  CC      lib/stdlib/assert.c
+  CC      lib/stdlib/exit.c
+  CC      lib/stdlib/mem.c
+  CC      lib/stdlib/printf.c
+  CC      lib/stdlib/putchar.c
+  CC      lib/stdlib/puts.c
+  CC      lib/stdlib/sscanf.c
+  CC      lib/stdlib/strchr.c
+  CC      lib/stdlib/strcmp.c
+  CC      lib/stdlib/strlen.c
+  CC      lib/stdlib/strncmp.c
+  CC      lib/stdlib/subr_prf.c
+  CC      plat/arm/board/fvp/fvp_common.c
+  CC      lib/xlat_tables/xlat_tables_common.c
+  CC      lib/xlat_tables/aarch64/xlat_tables.c
+  CC      plat/arm/common/arm_common.c
+  CC      plat/common/aarch64/plat_common.c
+plat/common/aarch64/plat_common.c: In function 'plat_get_syscnt_freq2':
+plat/common/aarch64/plat_common.c:84:2: warning: 'plat_get_syscnt_freq' is deprecated [-Wdeprecated-declarations]
+  unsigned long long freq = plat_get_syscnt_freq();
+  ^
+In file included from plat/common/aarch64/plat_common.c:32:0:
+include/plat/common/platform.h:62:20: note: declared here
+ unsigned long long plat_get_syscnt_freq(void) __deprecated;
+                    ^
+  AS      plat/common/aarch64/platform_up_stack.S
+  AS      bl2u/aarch64/bl2u_entrypoint.S
+  AS      common/aarch64/early_exceptions.S
+  AS      common/aarch64/debug.S
+  AS      lib/aarch64/cache_helpers.S
+  AS      lib/aarch64/misc_helpers.S
+  AS      plat/common/aarch64/platform_helpers.S
+  AS      drivers/arm/pl011/aarch64/pl011_console.S
+  AS      plat/arm/board/common/aarch64/board_arm_helpers.S
+  AS      plat/arm/common/aarch64/arm_helpers.S
+  PP      bl2u/bl2u.ld.S
+  LD      build/fvp/release/bl2u/bl2u.elf
+  BIN     build/fvp/release/bl2u.bin
+
+Built build/fvp/release/bl2u.bin successfully
+
+  OD      build/fvp/release/bl2u/bl2u.dump
+  CC      fiptool.c
+  CC      tbbr_config.c
+  LD      fiptool
+
+Built fiptool successfully
+
+Trusted Boot Firmware BL2: offset=0xB0, size=0x4008, cmdline="--tb-fw"
+EL3 Runtime Firmware BL31: offset=0x40B8, size=0x6018, cmdline="--soc-fw"
+Non-Trusted Firmware BL33: offset=0xA0D0, size=0x3DB20, cmdline="--nt-fw"
+
+Built build/fvp/release/fip.bin successfully
+
