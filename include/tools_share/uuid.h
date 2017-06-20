@@ -31,8 +31,8 @@
  * All rights reserved.
  */
 
-#ifndef _SYS_UUID_H_
-#define _SYS_UUID_H_
+#ifndef _TOOLS_SHARE_UUID_H_
+#define _TOOLS_SHARE_UUID_H_
 
 /* Length of a node address (an IEEE 802 address). */
 #define	_UUID_NODE_LEN		6
@@ -59,4 +59,4 @@ struct uuid {
 /* XXX namespace pollution? */
 typedef struct uuid uuid_t;
 
-#endif /* _SYS_UUID_H_ */
+#endif /* _TOOLS_SHARE_UUID_H_ */

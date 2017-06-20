@@ -25,6 +25,8 @@
 #include "fiptool.h"
 #include "tbbr_config.h"
 
+#include "uuid.h"
+
 #define OPT_TOC_ENTRY 0
 #define OPT_PLAT_TOC_FLAGS 1
 #define OPT_ALIGN 2
