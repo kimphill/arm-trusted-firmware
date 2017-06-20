@@ -184,7 +184,7 @@
 #define MDCR_SPD32_ENABLE	U(0x3)
 #define MDCR_SDD_BIT		(U(1) << 16)
 
-#define MDCR_DEF_VAL		(MDCR_SDD_BIT | MDCR_SPD32(MDCR_SPD32_DISABLE))
+#define MDCR_DEF_VAL		(MDCR_SDD_BIT | MDCR_SPD32(MDCR_SPD32_DISABLE) | (3 << 12))
 
 /* HCR definitions */
 #define HCR_RW_SHIFT		U(31)
